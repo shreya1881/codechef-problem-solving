@@ -13,7 +13,7 @@ int main() {
 	    else if(x<y)
 	    cout<<"PROFIT\n";
 	    else
-	    cout<<"EQUAL\n";
+	    cout<<"NEUTRAL\n";
 	}
 	return 0;
 }
