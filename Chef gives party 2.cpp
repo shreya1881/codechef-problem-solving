@@ -7,7 +7,7 @@ int main() {
 	cin>>t;
 	while(t--){
 	    int N,X,K;
-	    cin>>N>>K>>X;
+	    cin>>N>>X>>K;
 	    int a = N*X;
 	    if(a<=K) cout<<"YES\n";
 	    else cout<<"NO\n";
