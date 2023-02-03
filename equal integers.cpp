@@ -1,4 +1,9 @@
-int t;
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
     cin >> t;
     while(t--){
         int x , y;
@@ -25,3 +30,6 @@ int t;
             cout << count_x + count_y <<endl;
         }
     }
+	
+	return 0;
+}
